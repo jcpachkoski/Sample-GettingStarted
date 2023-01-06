@@ -9,8 +9,7 @@ namespace GettingStarted
         public string Text { get; set; }
     }
 
-    public class MessageConsumer :
-        IConsumer<Message>
+    public class MessageConsumer : IConsumer<Message>
     {
         readonly ILogger<MessageConsumer> _logger;
 
